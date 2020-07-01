@@ -1,267 +1,238 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
 <head>
 
-    <!--- Basic Page Needs
+   <!--- Basic Page Needs
    ================================================== -->
-    <meta charset="utf-8">
-    <title>Ali Jata-Portfolio Website</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <meta charset="utf-8">
+	<title>Ali Jata-Portfolio Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <!-- Mobile Specific Metas
+   <!-- Mobile Specific Metas
    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- CSS
+	<!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Script
+   <!-- Script
    ================================================== -->
-    <script src="js/modernizr.js"></script>
+	<script src="js/modernizr.js"></script>
 
-    <!-- Favicons
+   <!-- Favicons
 	================================================== -->
-    <link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="favicon.ico" >
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71559140-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-71559140-7');
+    </script>
+
     
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71559140-7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-71559140-7');
-</script>
-
-
-
-
+    
     <style>
         #h1-my-reads {
-            font: 15px/24px 'opensans-semibold', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-align: center;
-            margin-bottom: 48px;
-            color: #95A3A3;
+                font: 15px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #95A3A3;
         }
-
+        
         #h1-my-certeficates {
-            font: 15px/24px 'opensans-semibold', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            text-align: center;
-            margin-bottom: 48px;
-            color: #95A3A3;
+                font: 15px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #95A3A3;
         }
+        
+        
+        
+        
+        
+/* FUN FACTS */
 
+#fun-facts {
+	padding: 100px 0px;
+	background-color: #fff;
+}
 
+#fun-facts .fact-item {
+	background-color: #f4f4f4;
+	padding: 30px;
+	text-align: center;
+}
 
+.fact-item .counter {
+	font-size: 24px;
+	font-weight: 700;
+	color: #F06000;
+}
 
-
-        /* FUN FACTS */
-
-        #fun-facts {
-            padding: 100px 0px;
-            background-color: #fff;
-        }
-
-        #fun-facts .fact-item {
-            background-color: #f4f4f4;
-            padding: 30px;
-            text-align: center;
-        }
-
-        .fact-item .counter {
-            font-size: 24px;
-            font-weight: 700;
-            color: #F06000;
-        }
-
-        .fact-item span {
-            display: inline-block;
-            margin-top: 10px;
-            font-style: 13px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #7a7a7a;
-        }
-	    
-	 #nav-wrap{
-		background-color: #3c4049;
-	    }
-
+.fact-item span {
+	display: inline-block;
+	margin-top: 10px;
+	font-style: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: #7a7a7a;
+}
+    
+    
     </style>
 
 </head>
 
 <body>
 
-    <!-- Header
+   <!-- Header
    ================================================== -->
-    <header id="home">
+   <header id="home">
 
-        <nav id="nav-wrap">
+      <nav id="nav-wrap">
 
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-            <ul id="nav" class="nav">
-                <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                <li><a class="smoothscroll" href="#about">About</a></li>
-                <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-                <li><a class="smoothscroll" href="#certeficates">Certeficates</a></li>
-                <!--
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+             <li><a class="smoothscroll" href="#certeficates">Certeficates</a></li>
+             <!--
              <li><a class="smoothscroll" href="#my-reads">My Reads</a></li>
 -->
 
-                <!--  <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+          <!--  <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+             <br>
+             <br>
+            <h1 class="responsive-headline">Hi, I'm Ali!</h1>
+             <h3 style="background-color: #cc520069; padding: 10px;">I'm a freelance programmer & Owner of a construction company called ConstMan. My passion stands for, <span><a href="https://en.wikipedia.org/wiki/Web_design"><u>App Development (Web, IOS, Android), Data Analysis & Data Science.</u></a></span> My preffered programming languages, are C#, JavaScript &amp; Python.<br>
+             Currently i'm focused in <a href="https://ionicframework.com/">Ionicframework, & Angular for the Front-End and .Net for the backend. My future goal is becoming a Full Stack developer and develop my own products.</a>
+             </h3>
+                <br>
+                <p>
+                I use to create websites or Apps for small businesses, non profits, for start-up's, or young entrepreneurs who believe in their self. I love playing with different new technologies when i have free time, especially with CMS platforms and Javascript libraries.
+                </p>
+                <a class="smoothscroll" href="#about">Scroll</a>
+            and learn more <a class="smoothscroll" href="#about"><u>about me</u></a>.
+            <hr />
+            <ul class="social">
+                <li><a href="https://github.com/alijata123"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.facebook.com/alijataa"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/ali-jata-40b612104/"><i class="fa fa-linkedin"></i></a></li>
             </ul>
-            <!-- end #nav -->
+         </div>
+      </div>
 
-        </nav>
-        <!-- end #nav-wrap -->
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-        <div class="row banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">I'm Ali Jata.</h1>
-                <h3>I'm passionante about, <span><a href="https://en.wikipedia.org/wiki/Web_design"><u>Web design</u></a></span> and <span><a href="https://en.wikipedia.org/wiki/Front-end_web_development"><u>Web development.</u></a></span>
-                    <br> I use to create websites for small businesses, non profits, for start-up's, and for young entrepreneurs who believe in their goals. I love playing with different new technologies, especially with CMS platforms and Javascript libraries.<br>
-                    <a class="smoothscroll" href="#about">Scroll</a> and learn more <a class="smoothscroll" href="#about"><u>About me</u></a>.</h3>
-                <hr />
-                <ul class="social">
-                    <li><a href="https://github.com/alijata123"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.facebook.com/alijataa"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ali-jata-40b612104/"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-        </p>
-
-    </header>
-    <!-- Header End -->
+   </header> <!-- Header End -->
 
 
-    <!-- About Section
+   <!-- About Section
    ================================================== -->
-    <section id="about">
+   <section id="about">
 
-        <div class="row">
+      <div class="row">
 
-            <div class="three columns">
+         <div class="three columns">
 
-                <img class="profile-pic" src="images/0f76dbf99225810a83d65956d9a5a739.png" alt="sweet-profile-pic" />
+            <img class="profile-pic"  src="images/0f76dbf99225810a83d65956d9a5a739.png" alt="sweet-profile-pic" />
 
-            </div>
+         </div>
 
-            <div class="nine columns main-col">
+         <div class="nine columns main-col">
 
-                <h2>About Me</h2>
+            <h2>About Me</h2>
 
-                <p> I started learning programming about 3 years ago. It become an exciting hobby for me, after i learned that almost any new technology has code involved in the visual or non visual part of it. This field of technology, broadens to me the opportunities in business area, prepares me before becoming an entrepreneur, and more important which drives us all, the excitment of learning new things every day.
-                </p>
+            <p>Trying to be a Pro in Programming and a decent father at home, is as hard and beautiful in same time. Using different technologies in web development, have lead me to a better understanding, how programming works and how can change our everyday life.
+                I wish that one day, i will contribute in world's most valuable projects or maybe, i will have my own, and give something positive to this world, which consequently will lead next generations to better & happier future.
+            </p>
 
-                <p>My learning sources, has been mostly from online learning platforms, like:</p>
-                <ol style=" color: burlywood">
-                    <li>Udacity</li>
-                    <li>FreeCodeCamp.org</li>
-                    <li>Udemy</li>
-                    <li>Youtube</li>
-                    <li>CodeCademy</li>
-                    <li>...</li>
-                </ol>
+            <div class="row">
 
+               <div class="columns contact-details">
 
-                <br>
-                <p>Experimenting different technologies in programming, have lead me to better understand the path i want to choose. Becoming an expert in web development (Full Stack Developer) is my goal.<br> The last but not least, is the contribution i want to give to open source projects, and maybe after some time, i will have my own project to contribute and explore the capacities of my self.
-                </p>
-                <p style=" color: burlywood">
-                    I wish that my contribution goes to most valuable open source projects for our community and communites around the world, so next generations can have a better and more secure future than ours.
-                </p>
-                <br>
-                <br>
-                <div class="row">
-
-                    <div class="columns contact-details">
-
-                        <h2>Contact Details</h2>
-                        <p class="address">
-                            <span>Ali Jata</span><br>
-                            <span>Vantaa<br>
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Ali Jata</span><br>
+						   <span>Vantaa<br>
 						         Finlande
                            </span><br>
-                            <br>
-                            <span>alijataaa@gmail.com</span>
-                        </p>
+						   <br>
+                           <span>alijataaa@gmail.com</span>
+					   </p>
 
-                    </div>
+               </div>
 
-                    <div class="columns download">
-                        <p>
-                            <a href="Resume.pdf" class="button"><i class="fa fa-download"></i>View my Resume</a>
-                        </p>
-                    </div>
+               <div class="columns download">
+                  <p>
+                     <a href="Resume.pdf" class="button"><i class="fa fa-download"></i>View my Resume</a>
+                  </p>
+               </div>
 
-                    <div class="columns download">
-                        <p>
-                            <a href="https://github.com/alijata123"><img src="images/github%20icon.png" width="150" height="150"></a>
-                        </p>
-                    </div>
+            </div> <!-- end row -->
 
-                </div>
-                <!-- end row -->
+         </div> <!-- end .main-col -->
 
-            </div>
-            <!-- end .main-col -->
+      </div>
 
-        </div>
-
-    </section>
-    <!-- About Section End-->
+   </section> <!-- About Section End-->
 
 
-    <!-- Resume Section
+   <!-- Resume Section
    ================================================== -->
-    <section id="resume">
+   <section id="resume">
 
-        <!-- Education
+      <!-- Education
       ----------------------------------------------- -->
-        <div class="row education">
+      <div class="row education">
 
-            <div class="three columns header-col">
-                <h1><span>Education</span></h1>
-            </div>
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
 
-            <div class="nine columns main-col">
+         <div class="nine columns main-col">
 
-                <div class="row item">
+            <div class="row item">
 
-                    <div class="twelve columns">
+               <div class="twelve columns">
 
-                        <h3>University of Tirana</h3>
-                        <p class="info">(History-Geography) <span>&bull;</span> <em class="date">2009-2012</em></p>
+                  <h3>University of Tirana</h3>
+                  <p class="info">(History-Geography) <span>&bull;</span> <em class="date">2009-2012</em></p>
 
-                        <p>
-                            All i had to learn about science of Geography was at Tirana University, but the conditions by that time, made me stop it, and look elsewhere for my future.<br>I ended up here in Finlande... "Long story short" :)
-                        </p>
+                  <p>
+                  All i had to learn about science of Geography was at Tirana University, but the conditions by that time, made me stop it, and look elsewhere for my future.<br>I ended up here in Finlande... 
+                  "Long story short" :)
+                  </p>
 
-                    </div>
+               </div>
 
-                </div>
-                <!-- item end -->
-                <!--
+            </div> <!-- item end -->
+<!--
             <div class="row item">
 
                <div class="twelve columns">
@@ -281,41 +252,39 @@
                </div>
 
             </div> item end -->
+             
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
 
 
-            </div>
-            <!-- main-col end -->
-
-        </div>
-        <!-- End Education -->
-
-
-        <!-- Work
+      <!-- Work
       ----------------------------------------------- -->
-        <div class="row work">
+      <div class="row work">
 
-            <div class="three columns header-col">
-                <h1><span>Work</span></h1>
-            </div>
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
 
-            <div class="nine columns main-col">
+         <div class="nine columns main-col">
 
-                <div class="row item">
+            <div class="row item">
 
-                    <div class="twelve columns">
+               <div class="twelve columns">
 
-                        <h3>Maku App - AT TURBIINI(TECHNOPOLIS)</h3>
-                        <p class="info">DESIGNER / JUNIOR FRONT END DEVELOPER INTERNSHIP <span>&bull;</span> <em class="date">July 2016-September 2016</em></p>
+                  <h3>Maku App - AT TURBIINI(TECHNOPOLIS)</h3>
+                  <p class="info">DESIGNER / JUNIOR FRONT END DEVELOPER INTERNSHIP <span>&bull;</span> <em class="date">July 2016-September 2016</em></p>
 
-                        <p>
-                            I have been working mostly in designing the website of the product with WebFlow. The experience i had from this internship program, gave me more knowledge on how to collaborate with other developers, and about working culture in Finlande. I send my greetings to <a href="https://www.linkedin.com/in/mae-lehto-30523711/"><u>Mae Lehto</u></a>, which was the founder of this start up.
-                        </p>
+                  <p>
+                  I have been working mostly, in web design, and Front-End development. The experience i had from this internship program, gave me more knowledge on how to collaborate with other developers, and about working culture in Finlande.
+                    I send my greetings to <a href="https://www.linkedin.com/in/mae-lehto-30523711/"><u>Mae Lehto</u></a>, the founder of this start up, who choosed me to be part of Developer's team.  
+                  </p>
 
-                    </div>
+               </div>
 
-                </div>
-                <!-- item end -->
-                <!--
+            </div> <!-- item end -->
+<!--
             <div class="row item">
 
                <div class="twelve columns">
@@ -334,35 +303,35 @@
 
             </div> 
 item end -->
+           
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
 
 
-            </div>
-            <!-- main-col end -->
-
-        </div>
-        <!-- End Work -->
-
-
-        <!-- Skills
+      <!-- Skills
       ----------------------------------------------- -->
-        <div class="row skill">
+      <div class="row skill">
 
-            <div class="three columns header-col">
-                <h1><span>Skills</span></h1>
-            </div>
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
 
-            <div class="nine columns main-col">
-                <div class="bars">
-                    <ul class="skills">
-                        <img src="images/skills/js.png" width="55" height="55">
-                        <img src="images/skills/if_Wordpress_1298776.svg" width="55" height="55">
-                        <img src="images/skills/111721_drupal-icon_512x512.png" width="55" height="55">
-                        <img src="images/skills/react.png" width="55" height="55">
-                        <img src="images/skills/icons8-jquery-filled-100.png" width="55" height="55">
-                        <img src="images/skills/icons8-bootstrap-96.png" width="55" height="55">
-                        <img src="images/skills/14114390.png" width="55" height="55">
-                        <img src="images/skills/if_Invision_2744974.svg" width="55" height="55">
-                        <!--
+         <div class="nine columns main-col">
+				<div class="bars">
+				   <ul class="skills">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <img src="#" width="55" height="55">
+                       <!--
 					   <li><span class="bar-expand photoshop"></span><em>Photoshop-Advanced</em></li>
                   <li><span class="bar-expand illustrator"></span><em>Illustrator-Beginner</em></li>
 						<li><span class="bar-expand wordpress"></span><em>Wordpress-Advanced</em></li>
@@ -372,47 +341,19 @@ item end -->
                        <li><span class="bar-expand react"></span><em>ReactJs- Low Intermediate</em></li>
                        <li><span class="bar-expand python"></span><em>Python-Beginner</em></li>
 -->
-                    </ul>
-                </div>
-                <!-- end skill-bars -->
-            </div>
-            <!-- main-col end -->
+					</ul>
+				</div><!-- end skill-bars -->
+			</div> <!-- main-col end -->
 
-        </div>
-        <!-- End skills -->
-        <br>
-        <hr>
+      </div> <!-- End skills -->
 
-        <div class="row skill">
-
-            <div class="three columns header-col">
-                <h1 style="border-bottom: 3px solid #11ABB0;
-    padding-bottom: 6px;">I want to learn</h1>
-            </div>
-
-            <div class="nine columns main-col">
-                <div class="bars">
-                    <ul class="skills">
-                        <img src="images/skills/maxresdefault.jpg" width="100" height="65">
-                        <img src="images/skills/icons8-python-96.png" width="55" height="55">
-
-                    </ul>
-                </div>
-                <!-- end skill-bars -->
-            </div>
-            <!-- main-col end -->
-
-        </div>
-        <!-- End skills -->
-
-    </section>
-    <!-- Resume Section End-->
+   </section> <!-- Resume Section End-->
+    
+    
+    
 
 
-
-
-
-
+    
     <!-- Fun Facts -->
     <div id="fun-facts">
         <div class="container">
@@ -444,40 +385,27 @@ item end -->
             </div>
         </div>
     </div>
-
-    <div class="container" style="margin-top:50px; margin-bottom: 50px; text-align:center;">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>My progress in FreeCodeCamp.org</h1>
-                <a href="https://www.freecodecamp.org/alijata123"><button style="border: 3px solid powderblue;"><h3 style="color: white; padding: 5px 20px 0px 20px;">Check it</h3></button></a>
-            </div>
-            <div class="col-lg-12">
-                <a href="https://www.freecodecamp.org/certification/alijata123/responsive-web-design"><img src="certeficates/1dc4c726f280269db6e585dcdc75b716.png" width="500" height="400"></a>
-                <p>Responsive web design certeficate</p>
-            </div>
-        </div>
-    </div>
-    <!-- fun facts end section -->
+   <!-- fun facts end section -->
+    
 
 
-
-    <!-- Portfolio Section
+   <!-- Portfolio Section
    ================================================== -->
-    <section id="portfolio">
+   <section id="portfolio">
 
-        <div class="row">
+      <div class="row">
 
-            <div class="twelve columns collapsed">
+         <div class="twelve columns collapsed">
 
-                <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Works.</h1>
 
-                <!-- portfolio-wrapper -->
-                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-01" title="">
+                     <a href="#modal-01" title="">
                         <img alt="" src="images/portfolio/budget%20app.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -488,14 +416,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-02" title="">
+                     <a href="#modal-02" title="">
                         <img alt="" src="images/portfolio/react-timer-app.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -506,14 +433,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-03" title="">
+                     <a href="#modal-03" title="">
                         <img alt="" src="images/portfolio/calculator.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -524,14 +450,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-04" title="">
+                     <a href="#modal-04" title="">
                         <img alt="" src="images/portfolio/react-weather-app.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -542,14 +467,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-05" title="">
+                     <a href="#modal-05" title="">
                         <img alt="maalarit.com" src="images/portfolio/maalarit.com.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -560,14 +484,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-06" title="">
+                     <a href="#modal-06" title="">
                         <img alt="" src="images/portfolio/tryit.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -578,14 +501,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-07" title="">
+                     <a href="#modal-07" title="">
                         <img alt="" src="images/portfolio/Tennis%20Game.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -596,14 +518,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-08" title="">
+                     <a href="#modal-08" title="">
                         <img alt="" src="images/portfolio/PIG%20Dice%20Game.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -614,14 +535,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-09" title="">
+                     <a href="#modal-09" title="">
                         <img alt="" src="images/portfolio/JS%2030.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -632,14 +552,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-10" title="">
+                     <a href="#modal-10" title="">
                         <img alt="" src="images/portfolio/stencyl%20game.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -650,14 +569,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-11" title="">
+                     <a href="#modal-11" title="">
                         <img alt="" src="images/portfolio/Quote%20generator.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -668,14 +586,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-12" title="">
+                     <a href="#modal-12" title="">
                         <img alt="" src="images/portfolio/parturi-kaampammo-tarjoukset.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -686,15 +603,14 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-13" title="">
+                     <a href="#modal-13" title="">
                         <img alt="" src="images/portfolio/i-tech.fi.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -705,15 +621,14 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>   <!-- item end -->
+                
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-14" title="">
+                     <a href="#modal-14" title="">
                         <img alt="" src="images/portfolio/pizzeriaFinlandia.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -724,15 +639,14 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-15" title="">
+                     <a href="#modal-15" title="">
                         <img alt="" src="images/portfolio/ikhabebooks.jpg" width="800" height="800">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -743,14 +657,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
-
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-16" title="">
+                  </div>
+                  </div>  <!-- item end -->
+                  
+                  <div class="columns portfolio-item">
+                    <div class="item-wrap">
+  
+                       <a href="#modal-16" title="">
                           <img alt="" src="images/portfolio/varmdoglassmasteri.jpg" width="800" height="800">
                           <div class="overlay">
                              <div class="portfolio-item-meta">
@@ -760,358 +673,339 @@ item end -->
                           </div>
                           <div class="link-icon"><i class="icon-plus"></i></div>
                        </a>
-
-                        </div>
+  
                     </div>
-                    <!-- item end -->
+                    </div>  <!-- item end -->
+                
+                
+                
+                
+                
+                
+                
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
 
 
+         <!-- Modal Popup -->
 
+         <div id="modal-01" class="popup-modal mfp-hide">
 
+		      <img class="scale-with-grid" src="images/portfolio/budget%20app.png" alt="budget app" />
 
+		      <div class="description-box">
+			      <h4>Budget App</h4>
+			      <p>The App is made with Javascript, and course has been created by <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview" target="_blank">Jonas Schmedtmann.</a></p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
+		      </div>
 
-
-
-                </div>
-                <!-- portfolio-wrapper end -->
-
+            <div class="link-box">
+               <a href="Portofolio/BudgetApp/index.html">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- twelve columns end -->
 
+	      </div><!-- modal-01 End -->
 
-            <!-- Modal Popup -->
+         <div id="modal-02" class="popup-modal mfp-hide">
 
-            <div id="modal-01" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/react-timer-app.png" alt="" />
 
-                <img class="scale-with-grid" src="images/portfolio/budget%20app.png" alt="budget app" />
+		      <div class="description-box">
+			      <h4>Timmer App</h4>
+			      <p>The application is made with React Js, and the course was hosted by <a href="https://www.udemy.com/the-complete-react-web-app-developer-course/learn/v4/content" target="_blank">Andrew Mead</a>, a teacher from Udemy.com.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS ,JS</span>
+		      </div>
 
-                <div class="description-box">
-                    <h4>Budget App</h4>
-                    <p>The App is made with Javascript, and course has been created by <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview" target="_blank">Jonas Schmedtmann.</a></p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
-                </div>
-
-                <div class="link-box">
-                    <a href="Portofolio/BudgetApp/index.html">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="http://fast-basin-29041.herokuapp.com/#/?_k=ypl040">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-01 End -->
 
-            <div id="modal-02" class="popup-modal mfp-hide">
+	      </div><!-- modal-02 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/react-timer-app.png" alt="" />
+         <div id="modal-03" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Timmer App</h4>
-                    <p>The application is made with React Js, and the course was hosted by <a href="https://www.udemy.com/the-complete-react-web-app-developer-course/learn/v4/content" target="_blank">Andrew Mead</a>, a teacher from Udemy.com.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS ,JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/calculator.png" alt="calculator" />
 
-                <div class="link-box">
-                    <a href="http://fast-basin-29041.herokuapp.com/#/?_k=ypl040">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Calculator</h4>
+			      <p>A simple calculator, which was made as part of projects, from <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> Front-End Developer projects.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="Portofolio/Calculator.html">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-02 End -->
 
-            <div id="modal-03" class="popup-modal mfp-hide">
+	      </div><!-- modal-03 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/calculator.png" alt="calculator" />
+         <div id="modal-04" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Calculator</h4>
-                    <p>A simple calculator, which was made as part of projects, from <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> Front-End Developer projects.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/react-weather-app.png" alt="" />
 
-                <div class="link-box">
-                    <a href="Portofolio/Calculator.html">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Weather App</h4>
+			      <p>The application is made with React Js, and the course was hosted by <a href="https://www.udemy.com/the-complete-react-web-app-developer-course/learn/v4/overview">Andrew Mead</a>, a teacher from Udemy.com</p>
+               <span class="categories"><i class="fa fa-tag"></i>React, Foundation, CSS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="http://boiling-escarpment-24376.herokuapp.com">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-03 End -->
 
-            <div id="modal-04" class="popup-modal mfp-hide">
+	      </div><!-- modal-04 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/react-weather-app.png" alt="" />
+         <div id="modal-05" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Weather App</h4>
-                    <p>The application is made with React Js, and the course was hosted by <a href="https://www.udemy.com/the-complete-react-web-app-developer-course/learn/v4/overview">Andrew Mead</a>, a teacher from Udemy.com</p>
-                    <span class="categories"><i class="fa fa-tag"></i>React, Foundation, CSS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/maalarit.com.jpg" alt="maalarit" />
 
-                <div class="link-box">
-                    <a href="http://boiling-escarpment-24376.herokuapp.com">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Maalarit.com</h4>
+			      <p>A freelance project made for self-employed painters.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://www.maalarit.com">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-04 End -->
 
-            <div id="modal-05" class="popup-modal mfp-hide">
+	      </div><!-- modal-05 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/maalarit.com.jpg" alt="maalarit" />
+         <div id="modal-06" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Maalarit.com</h4>
-                    <p>A freelance project made for self-employed painters.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/tryit.png" alt="copy-paste code" />
 
-                <div class="link-box">
-                    <a href="https://www.maalarit.com">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Code converteer</h4>
+			      <p>This embeded code into webpage, can allow us test code by copy-paste  html,css,js code and convert it into web view.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="Portofolio/Try%20It.html">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-05 End -->
 
-            <div id="modal-06" class="popup-modal mfp-hide">
+	      </div><!-- modal-06 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/tryit.png" alt="copy-paste code" />
+         <div id="modal-07" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Code converteer</h4>
-                    <p>This embeded code into webpage, can allow us test code by copy-paste html,css,js code and convert it into web view.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/Tennis%20Game.png" alt="" />
 
-                <div class="link-box">
-                    <a href="Portofolio/Try%20It.html">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Tennis Classic Game</h4>
+			      <p>The game, was as a result of Udemy instructor <a href="https://www.udemy.com/code-your-first-game/learn/v4/content">Chris DeLeon</a>.
+                    I enjoyed learning how to draw into canvas with him.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="Portofolio/Html5%20Tennis%20Game.html">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-06 End -->
 
-            <div id="modal-07" class="popup-modal mfp-hide">
+	      </div><!-- modal-07 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/Tennis%20Game.png" alt="" />
+         <div id="modal-08" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Tennis Classic Game</h4>
-                    <p>The game, was as a result of Udemy instructor <a href="https://www.udemy.com/code-your-first-game/learn/v4/content">Chris DeLeon</a>. I enjoyed learning how to draw into canvas with him.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/modals/PIG%20Dice%20Game.png" alt="" />
 
-                <div class="link-box">
-                    <a href="Portofolio/Html5%20Tennis%20Game.html">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Dice Game</h4>
+			      <p>The game is made with Javascript, and course has been created by <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview" target="_blank">Jonas Schmedtmann</a>. He is one of the best instructors in describing the concepts of Javascript into details. Also love his english :D</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="Portofolio/DOM-Pig-Game/index.html">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-07 End -->
 
-            <div id="modal-08" class="popup-modal mfp-hide">
+	      </div><!-- modal-08 End -->
+          
+          <div id="modal-09" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/modals/PIG%20Dice%20Game.png" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/JS%2030.png" alt="" />
 
-                <div class="description-box">
-                    <h4>Dice Game</h4>
-                    <p>The game is made with Javascript, and course has been created by <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/overview" target="_blank">Jonas Schmedtmann</a>. He is one of the best instructors in describing the concepts of Javascript into details. Also love his english :D</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
+		      <div class="description-box">
+			      <h4>JS 30 Challenges</h4>
+			      <p>These tutorial is hosted by Wess Boss! 30 small project are included in this tutorial, from which Javascript has been used in every single project.<a href="https://javascript30.com/">Wes Bos</a>Is very easy to get your head around javascript, with these 30 small projects, explained in an unique way and understandable</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="Portofolio/DOM-Pig-Game/index.html">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="#">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-08 End -->
 
-            <div id="modal-09" class="popup-modal mfp-hide">
+	      </div><!-- modal-09 End -->
+          
+          <div id="modal-10" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/JS%2030.png" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/stencyl%20game.png" alt="" />
 
-                <div class="description-box">
-                    <h4>JS 30 Challenges</h4>
-                    <p>These tutorial is hosted by Wess Boss! 30 small project are included in this tutorial, from which Javascript has been used in every single project.<a href="https://javascript30.com/">Wes Bos</a>Is very easy to get your head around javascript, with these 30 small projects, explained in an unique way and understandable</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
+		      <div class="description-box">
+			      <h4>Starship game</h4>
+			      <p>The game is made with Stencyl, and course has been created by <a href="https://www.udemy.com/draft/884306/learn/v4/overview" target="_blank">JSeekhana Academy</a></p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="#">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="https://content.jwplatform.com/previews/hHHwxz22-u86vXjld">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-09 End -->
 
-            <div id="modal-10" class="popup-modal mfp-hide">
+	      </div><!-- modal-010 End -->
+          
+          <div id="modal-11" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/stencyl%20game.png" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/Quote%20generator.png" alt="" />
 
-                <div class="description-box">
-                    <h4>Starship game</h4>
-                    <p>The game is made with Stencyl, and course has been created by <a href="https://www.udemy.com/draft/884306/learn/v4/overview" target="_blank">JSeekhana Academy</a></p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
+		      <div class="description-box">
+			      <h4>Random Quote Generator</h4>
+			      <p>The application is made with Javascript, for one of FreeCodeCamp challenges</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="https://content.jwplatform.com/previews/hHHwxz22-u86vXjld">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="https://codepen.io/Jata1990/pen/gmmjRE">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-010 End -->
 
-            <div id="modal-11" class="popup-modal mfp-hide">
+	      </div><!-- modal-11 End -->
+          
+          <div id="modal-12" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/Quote%20generator.png" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/parturi-kaampammo-tarjoukset.jpg" alt="" />
 
-                <div class="description-box">
-                    <h4>Random Quote Generator</h4>
-                    <p>The application is made with Javascript, for one of FreeCodeCamp challenges</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
+		      <div class="description-box">
+			      <h4>Parturi-Kampammo-Tarjoukset</h4>
+			      <p>The Website was modified and developed by using Wordpress.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Wordpress</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="https://codepen.io/Jata1990/pen/gmmjRE">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="http://www.parturi-kampaamo-tarjoukset.fi/">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-11 End -->
 
-            <div id="modal-12" class="popup-modal mfp-hide">
+	      </div><!-- modal-12 End -->
+          
+          
+          <div id="modal-13" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/parturi-kaampammo-tarjoukset.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/portfolio/i-tech.fi.jpg" alt="" />
 
-                <div class="description-box">
-                    <h4>Parturi-Kampammo-Tarjoukset</h4>
-                    <p>The Website was modified and developed by using Wordpress.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Wordpress</span>
-                </div>
+		      <div class="description-box">
+			      <h4>i-Tech</h4>
+			      <p>The website was modified and developed from HTML5 Templates.
+                  The video background, was my prefer part.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="http://www.parturi-kampaamo-tarjoukset.fi/">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="https://i-tech.fi/">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-12 End -->
 
+	      </div><!-- modal-13 End -->
+          
+          
+          <div id="modal-14" class="popup-modal mfp-hide">
 
-            <div id="modal-13" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/pizzeriaFinlandia.jpg" alt="" />
 
-                <img class="scale-with-grid" src="images/portfolio/i-tech.fi.jpg" alt="" />
+		      <div class="description-box">
+			      <h4>Pizzeria Finlandia</h4>
+			      <p>The website, was modified and developed from HTML5 Templates! It has not been updated for over 2 years.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
+		      </div>
 
-                <div class="description-box">
-                    <h4>i-Tech</h4>
-                    <p>The website was modified and developed from HTML5 Templates. The video background, was my prefer part.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
-
-                <div class="link-box">
-                    <a href="https://i-tech.fi/">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="http://pizzeriafinlandia.fi/">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-13 End -->
 
+	      </div><!-- modal-14 End -->
+          
+          
+          <div id="modal-15" class="popup-modal mfp-hide">
 
-            <div id="modal-14" class="popup-modal mfp-hide">
+		      <img class="scale-with-grid" src="images/portfolio/ikhabebooks.jpg" alt="ikhabebooks.com" />
 
-                <img class="scale-with-grid" src="images/portfolio/pizzeriaFinlandia.jpg" alt="" />
+		      <div class="description-box">
+			      <h4>Ikhabebooks.com</h4>
+			      <p>The website has the purpose of posting eBooks from South African authors and selling to customer around the world.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Wordpress</span>
+		      </div>
 
-                <div class="description-box">
-                    <h4>Pizzeria Finlandia</h4>
-                    <p>The website, was modified and developed from HTML5 Templates! It has not been updated for over 2 years.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>HTML,CSS, JS</span>
-                </div>
-
-                <div class="link-box">
-                    <a href="http://pizzeriafinlandia.fi/">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="http://ikhabebooks.com/">View it</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-14 End -->
 
+          </div><!-- modal-15 End -->
+          
 
-            <div id="modal-15" class="popup-modal mfp-hide">
+          <div id="modal-16" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="images/portfolio/ikhabebooks.jpg" alt="ikhabebooks.com" />
+            <img class="scale-with-grid" src="images/portfolio/varmdoglassmasteri.jpg" alt="ikhabebooks.com" />
 
-                <div class="description-box">
-                    <h4>Ikhabebooks.com</h4>
-                    <p>The website has the purpose of posting eBooks from South African authors and selling to customer around the world.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Wordpress</span>
-                </div>
-
-                <div class="link-box">
-                    <a href="http://ikhabebooks.com/">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="description-box">
+                <h4>varmdoglasmasteri.se</h4>
+                <p>The website has the purpose of showing glass repairing services, gallery of projects, and letting visitors to contact from contact form(embedded from powr.io widgets).</p>
+             <span class="categories"><i class="fa fa-tag"></i>Html,Css,Javascript</span>
             </div>
-            <!-- modal-15 End -->
+
+          <div class="link-box">
+             <a href="https://varmdoglasmasteri.se/">View it</a>
+               <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+        </div><!-- modal-16 End -->
+         
+          
+          
+          
+          
+          
+          
 
 
-            <div id="modal-16" class="popup-modal mfp-hide">
-
-                <img class="scale-with-grid" src="images/portfolio/varmdoglassmasteri.jpg" alt="ikhabebooks.com" />
-
-                <div class="description-box">
-                    <h4>varmdoglasmasteri.se</h4>
-                    <p>The website has the purpose of showing glass repairing services, gallery of projects, and letting visitors to contact from contact form(embedded from powr.io widgets).</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Html,Css,Javascript</span>
-                </div>
-
-                <div class="link-box">
-                    <a href="https://varmdoglasmasteri.se/">View it</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
-            </div>
-            <!-- modal-16 End -->
-
-
-
-
-
-
-
-
-
-        </div>
-        <!-- row End -->
-    </section>
-    <!-- Portfolio Section End-->
-
-
-
-
-
-
-
-
-
-
+      </div> <!-- row End -->     
+   </section> <!-- Portfolio Section End-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!-- Certeficates section
    ================================================== -->
-    <section id="certeficates">
+   <section id="certeficates">
 
-        <div class="row">
+      <div class="row">
 
-            <div class="twelve columns collapsed">
+         <div class="twelve columns collapsed">
 
-                <h1 id="h1-my-certeficates">Check Out Some of My Certeficates.</h1>
+            <h1 id="h1-my-certeficates">Check Out Some of My Certeficates.</h1>
 
-                <!-- portfolio-wrapper -->
-                <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-001" title="">
+                     <a href="#modal-001" title="">
                         <img alt="" src="certeficates/The%20Complete%20JS%20course%20-%20Jonas%20Chmedtmann.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1122,14 +1016,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-002" title="">
+                     <a href="#modal-002" title="">
                         <img alt="" src="certeficates/Javascript%20and%20the%20DOM.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1140,14 +1033,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-003" title="">
+                     <a href="#modal-003" title="">
                         <img alt="" src="certeficates/Build%20your%20first%20game%20with%20Stencyl.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1158,14 +1050,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-004" title="">
+                     <a href="#modal-004" title="">
                         <img alt="" src="certeficates/Breakout-Game.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1176,14 +1067,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-005" title="">
+                     <a href="#modal-005" title="">
                         <img alt="" src="certeficates/Developing%20Software%20using%20design%20thinking.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1194,14 +1084,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-006" title="">
+                     <a href="#modal-006" title="">
                         <img alt="" src="certeficates/OpenClassrooms,%20Learn%20to%20Code%20with%20Javascript.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1212,14 +1101,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-007" title="">
+                     <a href="#modal-007" title="">
                         <img alt="" src="certeficates/Sap%20Course%20(Software%20design%20for%20non-designers.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1230,14 +1118,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div> <!-- item end -->
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                            <a href="#modal-008" title="">
+                     <a href="#modal-008" title="">
                         <img alt="" src="certeficates/udacity-progress-2017.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1248,14 +1135,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-009" title="">
+                     <a href="#modal-009" title="">
                         <img alt="" src="certeficates/Complete%20react%20app%20web%20development%20course.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1266,14 +1152,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-010" title="">
+                     <a href="#modal-010" title="">
                         <img alt="" src="certeficates/Freecodecamp.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1284,14 +1169,13 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-                    <div class="columns portfolio-item">
-                        <div class="item-wrap">
-
-                            <a href="#modal-011" title="">
+                     <a href="#modal-011" title="">
                         <img alt="" src="certeficates/Alison%20Courses%20in%20Progress.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -1302,179 +1186,166 @@ item end -->
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+                  </div>
+          		</div>  <!-- item end -->
 
-                </div>
-                <!-- portfolio-wrapper end -->
+            </div> <!-- portfolio-wrapper end -->
 
-            </div>
-            <!-- twelve columns end -->
+         </div> <!-- twelve columns end -->
 
 
-            <!-- Modal Popup
+         <!-- Modal Popup
 	      --------------------------------------------------------------- -->
 
-            <div id="modal-001" class="popup-modal mfp-hide">
+         <div id="modal-001" class="popup-modal mfp-hide">
 
-                <img class="scale-with-grid" src="certeficates/The%20Complete%20JS%20course%20-%20Jonas%20Chmedtmann.jpg" alt="" />
+		      <img class="scale-with-grid" src="certeficates/The%20Complete%20JS%20course%20-%20Jonas%20Chmedtmann.jpg" alt="" />
 
-                <div class="description-box">
-                    <h4>Udemy</h4>
-                    <p>The Complete JS course.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
-                </div>
+		      <div class="description-box">
+			      <h4>Udemy</h4>
+			      <p>The Complete JS course.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
+		      </div>
 
-                <div class="link-box">
-                    <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/content">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-
+            <div class="link-box">
+               <a href="https://www.udemy.com/the-complete-javascript-course/learn/v4/content">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-01 End -->
 
-            <div id="modal-002" class="popup-modal mfp-hide">
+	      </div><!-- modal-01 End -->
 
-                <img class="scale-with-grid" src="certeficates/Javascript%20and%20the%20DOM.jpg" alt="" />
+         <div id="modal-002" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Udemy</h4>
-                    <p>Javascript and the DOM.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
-                </div>
+		      <img class="scale-with-grid" src="certeficates/Javascript%20and%20the%20DOM.jpg" alt="" />
 
-                <div class="link-box">
-                    <a href="https://www.udemy.com/building-websites-learn-javascript-and-the-dom/learn/v4/overview">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Udemy</h4>
+			      <p>Javascript and the DOM.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://www.udemy.com/building-websites-learn-javascript-and-the-dom/learn/v4/overview">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-02 End -->
 
-            <div id="modal-003" class="popup-modal mfp-hide">
+	      </div><!-- modal-02 End -->
 
-                <img class="scale-with-grid" src="certeficates/Build%20your%20first%20game%20with%20Stencyl.jpg" alt="" />
+         <div id="modal-003" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Udemy</h4>
-                    <p>Your first game with Stencyl.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Stencyl</span>
-                </div>
+		      <img class="scale-with-grid" src="certeficates/Build%20your%20first%20game%20with%20Stencyl.jpg" alt="" />
 
-                <div class="link-box">
-                    <a href="https://www.udemy.com/draft/884306/learn/v4/overview">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Udemy</h4>
+			      <p>Your first game with Stencyl.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Stencyl</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://www.udemy.com/draft/884306/learn/v4/overview">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-03 End -->
 
-            <div id="modal-004" class="popup-modal mfp-hide">
+	      </div><!-- modal-03 End -->
 
-                <img class="scale-with-grid" src="certeficates/Breakout-Game.jpg" alt="" />
+         <div id="modal-004" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Udemy</h4>
-                    <p>Building acade game, into canvas with Javascript.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
-                </div>
+		      <img class="scale-with-grid" src="certeficates/Breakout-Game.jpg" alt="" />
 
-                <div class="link-box">
-                    <a href="https://www.udemy.com/code-your-first-game/learn/v4/overview">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Udemy</h4>
+			      <p>Building acade game, into canvas with Javascript.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Javascript</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://www.udemy.com/code-your-first-game/learn/v4/overview">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-04 End -->
 
-            <div id="modal-005" class="popup-modal mfp-hide">
+	      </div><!-- modal-04 End -->
 
-                <img class="scale-with-grid" src="certeficates/Developing%20Software%20using%20design%20thinking.png" alt="" />
+         <div id="modal-005" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>openSAP</h4>
-                    <p>Developing software using design thinking.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-                </div>
+		      <img class="scale-with-grid" src="certeficates/Developing%20Software%20using%20design%20thinking.png" alt="" />
 
-                <div class="link-box">
-                    <a href="https://open.sap.com/courses/dt1-2">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>openSAP</h4>
+			      <p>Developing software using design thinking.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://open.sap.com/courses/dt1-2">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-05 End -->
 
-            <div id="modal-006" class="popup-modal mfp-hide">
+	      </div><!-- modal-05 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+         <div id="modal-006" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>OpenClassrooms.com</h4>
-                    <p>The basics of Javascript, are well explained and challenges are perfectly designed for very beginners in Javascript.</p>
-                    <span class="categories"><i class="fa fa-tag"></i>JS</span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
 
-                <div class="link-box">
-                    <a href="https://openclassrooms.com/courses/learn-the-basics-of-javascript">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>OpenClassrooms.com</h4>
+			      <p>The basics of Javascript, are well explained and challenges are perfectly designed for very beginners in Javascript.</p>
+               <span class="categories"><i class="fa fa-tag"></i>JS</span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://openclassrooms.com/courses/learn-the-basics-of-javascript">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-06 End -->
 
-            <div id="modal-007" class="popup-modal mfp-hide">
+	      </div><!-- modal-06 End -->
 
-                <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+         <div id="modal-007" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>openSAP</h4>
-                    <p>This free Software Design for Non-Designers interactive course aims to explain common aspects of design as way to improve user experience in software engineering, and will provide an introduction to a few basic steps you can apply to your next project.</p>
-                    <span class="categories"><i class="fa fa-tag"></i></span>
-                </div>
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
 
-                <div class="link-box">
-                    <a href="https://open.sap.com/courses/dfnd1-5">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>openSAP</h4>
+			      <p>This free Software Design for Non-Designers interactive course aims to explain common aspects of design as way to improve user experience in software engineering, and will provide an introduction to a few basic steps you can apply to your next project.</p>
+               <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
 
+            <div class="link-box">
+               <a href="https://open.sap.com/courses/dfnd1-5">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-07 End -->
 
-            <div id="modal-008" class="popup-modal mfp-hide">
+	      </div><!-- modal-07 End -->
 
-                <img class="scale-with-grid" src="certeficates/Gmail%20-%20Ali,%20your%202017%20with%20Udacity!.pdf" alt="" />
+         <div id="modal-008" class="popup-modal mfp-hide">
 
-                <div class="description-box">
-                    <h4>Udacity Summary of 2017</h4>
-                    <p>There is a bunch of free courses, from this i have take this opportunity to and learn with most experienced instructors from Udacity and Google.</p>
-                    <span class="categories"><i class="fa fa-tag"></i></span>
-                </div>
+		      <img class="scale-with-grid" src="certeficates/Gmail%20-%20Ali,%20your%202017%20with%20Udacity!.pdf" alt="" />
 
-                <div class="link-box">
-                    <a href="certeficates/Gmail%20-%20Ali,%20your%202017%20with%20Udacity!.pdf">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
+		      <div class="description-box">
+			      <h4>Udacity Summary of 2017</h4>
+			      <p>There is a bunch of free courses, from this i have take this opportunity to and learn with most experienced instructors from Udacity and Google.</p>
+                  <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
 
+            <div class="link-box">
+               <a href="certeficates/Gmail%20-%20Ali,%20your%202017%20with%20Udacity!.pdf">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <!-- modal-01 End -->
+
+	      </div><!-- modal-01 End -->
 
 
-        </div>
-        <!-- row End -->
+      </div> <!-- row End -->
 
-    </section>
-    <!-- Certeficates Section End-->
-
-
-
+   </section> <!-- Certeficates Section End-->
+    
+    
+    
     <br>
     <br>
     <br>
 
 
-    <!-- MyReads Section
+   <!-- MyReads Section
    ================================================== 
    <section id="my-reads">
 
@@ -1616,7 +1487,7 @@ item end -->
           -->
 
 
-    <!-- Modal Popup
+         <!-- Modal Popup
 	      --------------------------------------------------------------- 
 
          <div id="modal-0001" class="popup-modal mfp-hide">
@@ -1756,90 +1627,81 @@ item end -->
 	      </div><!-- modal-01 End -->
 
 
-    </div>
+      </div>
 
-    </section>
+   </section>
+ 
+    
+    
+ <!-- Shelfbook Section End-->
 
 
-
-    <!-- Shelfbook Section End-->
-
-
-    <!-- Testimonials Section
+   <!-- Testimonials Section
    ================================================== -->
-    <section id="testimonials">
+   <section id="testimonials">
 
-        <div class="text-container">
+      <div class="text-container">
 
-            <div class="row">
+         <div class="row">
 
-                <div class="two columns header-col">
+            <div class="two columns header-col">
 
-                    <h1><span>My preffer Quotes</span></h1>
-
-                </div>
-
-                <div class="ten columns flex-container">
-
-                    <div class="flexslider">
-
-                        <ul class="slides">
-
-                            <li>
-                                <blockquote>
-                                    <p>If you cannot do great things, do small things in a great way.
-                                    </p>
-                                    <cite>Napoleon Hill</cite>
-                                </blockquote>
-                            </li>
-                            <!-- slide ends -->
-
-                            <li>
-                                <blockquote>
-                                    <p>Keep your face always toward the sunshine - and shadows will fall behind you.
-                                    </p>
-                                    <cite>Walt Whitman</cite>
-                                </blockquote>
-                            </li>
-                            <!-- slide ends -->
-
-                            <li>
-                                <blockquote>
-                                    <p>Happiness can exist only in acceptance.
-                                    </p>
-                                    <cite>George Orwell</cite>
-                                </blockquote>
-                            </li>
-                            <!-- slide ends -->
-
-                            <li>
-                                <blockquote>
-                                    <p>Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.
-                                    </p>
-                                    <cite>Samuel Beckett</cite>
-                                </blockquote>
-                            </li>
-                            <!-- slide ends -->
-
-                        </ul>
-
-                    </div>
-                    <!-- div.flexslider ends -->
-
-                </div>
-                <!-- div.flex-container ends -->
+               <h1><span>My preffer Quotes</span></h1>
 
             </div>
-            <!-- row ends -->
 
-        </div>
-        <!-- text-container ends -->
+            <div class="ten columns flex-container">
 
-    </section>
-    <!-- Testimonials Section End-->
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>If you cannot do great things, do small things in a great way.
+                           </p>
+                           <cite>Napoleon Hill</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Keep your face always toward the sunshine - and shadows will fall behind you.
+                           </p>
+                           <cite>Walt Whitman</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                      
+                      <li>
+                        <blockquote>
+                           <p>Happiness can exist only in acceptance.
+                           </p>
+                           <cite>George Orwell</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                      
+                      <li>
+                        <blockquote>
+                           <p>Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.
+                           </p>
+                           <cite>Samuel Beckett</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
 
 
-    <!-- Contact Section
+   <!-- Contact Section
    ================================================== 
    <section id="contact">
 
@@ -1955,51 +1817,46 @@ item end -->
     Contact Section End-->
 
 
-    <!-- footer
+   <!-- footer
    ================================================== -->
-    <footer>
+   <footer>
 
-        <div class="row">
+      <div class="row">
 
-            <div class="twelve columns">
+         <div class="twelve columns">
 
-                <ul class="social-links">
-                    <li><a href="https://github.com/alijata123"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.facebook.com/alijataa"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ali-jata-40b612104/"><i class="fa fa-linkedin"></i></a></li>
-
-                </ul>
-                <!--
+            <ul class="social-links">
+        <li><a href="https://github.com/alijata123"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/alijataa"><i class="fa fa-facebook"></i></a></li>    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/ali-jata-40b612104/"><i class="fa fa-linkedin"></i></a></li>
+  
+            </ul>
+<!--
             <ul class="copyright">
                <li>&copy; Copyright 2014 CeeVee</li>
                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
             </ul>
 -->
 
-            </div>
+         </div>
 
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
-        </div>
+      </div>
 
-    </footer>
-    <!-- Footer End-->
+   </footer> <!-- Footer End-->
 
-    <!-- Java Script
+   <!-- Java Script
    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-    </script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
