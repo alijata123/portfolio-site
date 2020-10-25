@@ -30,8 +30,8 @@ body { background: #eff1f5; }
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   max-height:  100%;
+   min-height: 600px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
@@ -68,7 +68,7 @@ header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #fff;
    margin: 0 auto;
-   width: 70%;
+   width: 100%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
